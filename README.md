@@ -2,7 +2,9 @@
 Implementing Linear Regression model using Spark
 
 src : Consists of python source code linreg.py linreg-gd.py 
+
 out : Consists of the two output files yxlin.out yxlin2.out using ordinary least squares estimate
+
 gd-out : Consists of the two output files yxlin.out yxlin2.out using gradient descent
 
 #########################################################################################
