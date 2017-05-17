@@ -13,14 +13,14 @@ Used the closed form expression for the ordinary least squares estimate of the l
 
 Steps for running the code:
 
--> Putting the input files in the hdfs
+-> Putting the input files in the hdfs  
 hdfs dfs -put yxlin.csv
 hdfs dfs -put yxlin2.csv
 
--> Going to the root directory and then going to the bin directory
+-> Going to the root directory and then going to the bin directory  
 cd /usr/lib/spark/bin
 
--> Running the spark program for the two input files
+-> Running the spark program for the two input files   
 spark-submit /users/shashank/linreg.py yxlin.csv
 spark-submit /users/shashank/linreg.py yxlin2.csv
 
@@ -39,15 +39,14 @@ I have assumed the initial Beta value to be a matrix of all 0's.
 
 Steps for running the code:
 
--> Putting the input files in the hdfs
-
+-> Putting the input files in the hdfs  
 hdfs dfs -put yxlin.csv
 hdfs dfs -put yxlin2.csv
 
--> Going to the root directory and then going to the bin directory
+-> Going to the root directory and then going to the bin directory  
 cd /usr/lib/spark/bin
 
--> Running the spark program for the two input files
+-> Running the spark program for the two input files  
 spark-submit /users/shashank/linreg-gd.py yxlin.csv 0.001 500
 spark-submit /users/shashank/linreg-gd.py yxlin2.csv 0.001 500
 
