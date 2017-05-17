@@ -40,6 +40,7 @@ I have assumed the initial Beta value to be a matrix of all 0's.
 Steps for running the code:
 
 -> Putting the input files in the hdfs
+
 hdfs dfs -put yxlin.csv
 hdfs dfs -put yxlin2.csv
 
