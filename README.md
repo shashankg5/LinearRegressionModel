@@ -5,7 +5,8 @@ src : Consists of python source code linreg.py linreg-gd.py
 out : Consists of the two output files yxlin.out yxlin2.out using ordinary least squares estimate
 gd-out : Consists of the two output files yxlin.out yxlin2.out using gradient descent
 
-#########################################################################################
+##########################################################################################
+
 Used the closed form expression for the ordinary least squares estimate of the linear regression coefficients
 
 Steps for running the code:
@@ -23,6 +24,7 @@ spark-submit /users/shashank/linreg.py yxlin2.csv
 
 
 #########################################################################################
+
 Gradient Descent approach to calculate regression coefficients : alpha= 0.001 and iterations = 500
 
 The following formula is used for gradient descent:
